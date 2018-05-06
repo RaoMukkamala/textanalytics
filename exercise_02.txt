@@ -1,0 +1,42 @@
+Exercise 02:
+
+The data folder contains the following novels in text file format.
+
+1) Emma by Jane Austen 1816 [austen-emma.txt]
+
+2) Sense and Sensibility by Jane Austen 1811 [austen-sense.txt]
+
+3) Crime and Punishment, by Fyodor Dostoevsky [Crime-Punishment-Dostavasky-novel.txt]
+
+4) The Tragedie of Julius Caesar by William Shakespeare 1599 [shakespeare-caesar.txt]
+
+5) The Tragedie of Macbeth by William Shakespeare 1603 [shakespeare-macbeth.txt]
+
+6) Anna Karenina, by Leo Tolstoy [Tolstoy-Anna-Karenina.txt]
+
+
+The task is to choose any two novels and find out all the nouns that are used in common in both the novels.
+
+Some hints:
+Read the novel by line by line, parse each lines using pos_tagger to find out which nouns are used by each novel, store them in a list and finally find out the intersection of the lists of nouns of those two novels.
+
+NLTK pos_tagger uses the following tags for nouns:
+
+"""
+NN: noun, common, singular or mass
+    common-carrier cabbage knuckle-duster Casino afghan shed thermostat
+    investment slide humour falloff slick wind hyena override subhumanity
+    machinist ...
+NNP: noun, proper, singular
+    Motown Venneboerger Czestochwa Ranzer Conchita Trumplane Christos
+    Oceanside Escobar Kreisler Sawyer Cougar Yvette Ervin ODI Darryl CTCA
+    Shannon A.K.C. Meltex Liverpool ...
+NNPS: noun, proper, plural
+    Americans Americas Amharas Amityvilles Amusements Anarcho-Syndicalists
+    Andalusians Andes Andruses Angels Animals Anthony Antilles Antiques
+    Apache Apaches Apocrypha ...
+NNS: noun, common, plural
+    undergraduates scotches bric-a-brac products bodyguards facets coasts
+    divestitures storehouses designs clubs fragrances averages
+    subjectivists apprehensions muses factory-jobs ...
+"""
