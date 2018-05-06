@@ -31,3 +31,7 @@ Use the file: Hillary_50000_lines.csv and perform a data transformation using Py
 
 You task is to : Read the file using CSV reader, extract all the rows containing FB texts (TextValue > 0 characters) and write them to a new file (Hillary_only_FB_texts.csv)
 You will notice that you will extract all the rows with ActionType: Post, Comment, CommentReply
+
+
+
+
