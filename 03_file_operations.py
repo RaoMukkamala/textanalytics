@@ -7,6 +7,8 @@ currentDir = os.getcwd()
 textFilePath = os.path.join(currentDir, 'data', 'shakespeare-macbeth.txt')
 
 
+textFilePath = textFilePath.replace('\\', '/')
+
 with open(textFilePath) as f:
     text = f.read()
 
