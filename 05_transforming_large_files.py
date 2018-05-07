@@ -7,14 +7,14 @@ import os
 
 currentDir = os.getcwd()
 
-sourceFile = os.path.join(currentDir, 'data', 'Hillary_1000000_lines.csv')
+sourceFile = os.path.join(currentDir, 'data', 'Hillary_50000_lines.csv')
 
 
-destinationPath = os.path.join(currentDir, 'data', 'Hillary_50000_lines.csv')
+destinationPath = os.path.join(currentDir, 'data', 'Hillary_25000_lines.csv')
 
 with open(destinationPath, 'w') as fw:
    with open(sourceFile) as fr:
-      for i in range(50000):
+      for i in range(25000):
          fw.write(fr.readline())
 
 
