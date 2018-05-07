@@ -14,7 +14,7 @@ words = ['cat', 'window', 546]
 for w in words:
    print(w, len(str(w)))
 
-wordFrequencies = [('sample', 45), ('random', 89), ('abc', 59),('xyz', 456), ]
+wordFrequencies = [('sample', 45), ('random', 89), ('abc', 59),('xyz', 456)]
 
 
 for (word, freq) in wordFrequencies:
