@@ -13,7 +13,7 @@ sourceFile = os.path.join(currentDir, 'data', 'Hillary_50000_lines.csv')
 destinationPath = os.path.join(currentDir, 'data', 'Hillary_25000_lines.csv')
 
 with open(destinationPath, 'w', encoding='utf-8') as fw:
-   with open(sourceFile) as fr:
+   with open(sourceFile, 'r', encoding='utf-8') as fr:
       for i in range(25000):
          fw.write(fr.readline())
 
