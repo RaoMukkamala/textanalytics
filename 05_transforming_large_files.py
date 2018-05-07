@@ -33,7 +33,7 @@ with open(sourceFile, encoding='utf-8') as csvfile:
     with open(destinationPath, 'w', newline='', encoding='utf-8') as writeFile:
         fbTextWriter = csv.writer(writeFile, delimiter=';', quoting=csv.QUOTE_MINIMAL)
         for row in fbDataReader:
-            print(str(len(row)))
+            #print(str(len(row)))
             if len(row) != 20:
                 continue
             row[19] = row[19].replace(';', ' ')
