@@ -1,0 +1,23 @@
+Exercise 03:
+
+As you have seen previously, the data folder contains the following novels in text file format.
+
+1) Emma by Jane Austen 1816 [austen-emma.txt]
+
+2) Sense and Sensibility by Jane Austen 1811 [austen-sense.txt]
+
+3) Crime and Punishment, by Fyodor Dostoevsky [Crime-Punishment-Dostavasky-novel.txt]
+
+4) The Tragedie of Julius Caesar by William Shakespeare 1599 [shakespeare-caesar.txt]
+
+5) The Tragedie of Macbeth by William Shakespeare 1603 [shakespeare-macbeth.txt]
+
+6) Anna Karenina, by Leo Tolstoy [Tolstoy-Anna-Karenina.txt]
+
+
+The task is to choose any two novels and compare them using keyword analysis or word frequency distributions. Therefore generate word clouds diagrams for the following.
+a) all the words 
+b) taking only the nouns from the novels
+
+Hint:
+You can use advanced functionality from Wordle: http://www.wordle.net/
